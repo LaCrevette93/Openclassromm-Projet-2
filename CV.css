@@ -1,0 +1,214 @@
+body {
+	margin: auto;
+	padding: 0;
+}
+
+main {
+	display: block;
+}
+
+#nom {
+	padding: 10px 0 05px 0;
+	margin-bottom: 0px;
+}
+
+#nom > strong {
+	color: rgb(249, 192, 0);
+}
+
+header > div {
+	border-top: 1px solid rgb(249, 192, 0);
+	width: 60px;
+}
+
+.h2details {
+	border-bottom: 1px solid rgb(249, 192, 0);
+	text-align: left;
+}
+
+.fa-graduation-cap , .fa-briefcase , .fa-pencil-alt {
+	color: rgb(249, 192, 0);
+	margin-right: 10px;
+}
+
+.descriptioncv {
+	display: flex;
+	flex-direction: row;
+}
+
+.date {
+	width: 25%;
+	font-weight: bolder;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.infos {
+	width: 75%;
+}
+
+.fa-circle , .fa-dot-circle {
+	color: rgb(249, 192, 0);
+	padding-right: 5px;
+	font-size: 1em;
+}
+
+h3 {
+	margin: 0;
+}
+
+.diplomemetier {
+	font-weight: bolder;
+	margin: 1px 0;
+	padding: 0;
+}
+
+.diplomemetier + p {
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+.infos > ul {
+	list-style: square;
+	margin: 0 0 10px 0;
+}
+
+.h2details + ul {
+	list-style: none;
+}
+
+@media only screen and (min-width: 1025px) {
+	body {
+		display : flex;
+		flex-direction: row;
+		width : 40%;
+		border: 1px solid black;
+		min-width: 750px;
+	}
+
+	main {
+		width: 70%;
+		margin: 0 15px;
+	}
+	
+	h1 {
+		margin: 0px;
+		font-size: 1.2em
+	}
+
+	#nom {
+		font-size: 2em;
+	}
+
+	header > div {
+		width: 50px;
+		margin-bottom: 3em;
+	}
+
+	.h2details {
+		font-size: 1.3em;
+	}
+
+	.espacement {
+		padding-left: 17px;
+	}
+
+	.h2details + ul {
+		padding-left: 200px;	
+	}
+
+	ul , p {
+		font-size: 0.8em;
+	}
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1024px) {
+	body {
+		display: block;
+		padding: 0 20px;
+	}
+
+	main {
+		width: 100%;
+	}
+	
+	h1 {
+		margin: 0px;
+		font-size: 2em
+	}
+
+	#nom {
+		font-size: 3.6em;
+	}
+
+	header > div {
+		width: 100px;
+		margin-bottom: 3em;
+	}
+
+	.h2details {
+		font-size: 2.2em;
+	}
+
+	h3 {
+		font-size: 1.6em;
+	}
+
+	.espacement {
+		padding-left: 25px;
+	}
+
+	.h2details + ul {
+		padding-left: 290px;	
+	}
+
+	ul , p  {
+		font-size: 1.2em;
+	}
+}
+
+@media only screen and (max-width: 749px) {
+	body {
+		display: block;
+		padding: 0 10px;
+	}
+
+	main {
+		width: 100%;
+	}
+	
+	h1 {
+		margin: 0px;
+		font-size: 1.5em
+	}
+
+	#nom {
+		font-size: 2em;
+	}
+
+	header > div {
+		width: 70px;
+		margin-bottom: 3em;
+	}
+
+	.h2details {
+		font-size: 1.1em;
+	}
+
+	h3 {
+		font-size: 1em;
+	}
+
+	.espacement {
+		padding-left: 15px;
+	}
+
+	.h2details + ul {
+		padding-left: 110px;	
+	}
+
+	ul , p  {
+		font-size: 0.8em;
+	}
+}
